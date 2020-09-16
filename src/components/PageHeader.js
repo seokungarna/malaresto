@@ -33,7 +33,7 @@ const PageHeader = ({
           <Content className="PageHeader--Subtitle" src={subtitle} />
         )}
       {offertknapp &&
-       <Link to="/besiktning">
+       <Link to="/offert">
        <div className="Button">{offertknapp}</div>    
       </Link>}
        
